@@ -205,9 +205,48 @@ a:link {
 /* Media Queries */
 
 @media only screen and (max-width: 500) {
+  .nav {
+    width: 100%;
+  }
 
 
+/* Start */
+  .content {
+    display: block;
+  }
 
+  .top {
+    display: block;
+  }
+
+  .bottom {
+    display: block;
+    margin-top: 0px;
+    padding-bottom: 25px;
+  }
+
+  .top img {
+    display: none;
+  }
+
+  .bottom img {
+    display: none;
+  }
+
+  .top p {
+    display: none;
+  }
+
+  .bottom p {
+    display: none;
+  }
+
+  .box  {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+  }
 
 
 }
