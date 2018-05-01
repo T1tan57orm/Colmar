@@ -43,6 +43,10 @@ p {
   margin-top: 5px;
 }
 
+.nav ul {
+  display: flex;
+}
+
 a:link {
   text-decoration: none;
   color: black;
@@ -184,19 +188,24 @@ a:link {
   padding-left: 25px;
 }
 
-.more {
-  flex-direction: column;
+.side {
   display: flex;
   width: 40%;
-  padding: 18px;
+  margin: 23px;
 }
 
 .more img {
-  width: 15%;
+  margin: 16px;
+  width: 20%;
 }
 
 .more1 {
-  background-color: #e6e6e6;
+  display: flex;
+  background-color: #f2f2f2;
+}
+
+.more2 {
+  display: flex;
 }
 
 /* Footer */
@@ -207,10 +216,14 @@ a:link {
   border-top: 2px solid #f2f2f2;
   margin: 24px;
 }
+
 .foot p {
   padding-left: 25px;
 }
 
+.right {
+  display: flex;
+}
 
 /* Media Queries */
 
@@ -247,7 +260,7 @@ a:link {
 
   /* Start */
   .start {
-    background-color: white;
+    background-color: #f2f2f2;
   }
 
   .top {
@@ -281,11 +294,16 @@ a:link {
     height: auto;
     margin: 0 auto;
     padding: 10px;
-    background-color: #f2f2f2;
-  }
+    background-color: #e6e6e6;
+}
 
   .box h4 {
     margin-left: 16px;
+  }
+
+  /* footer */
+  .right {
+    display: none;
   }
 
 }
