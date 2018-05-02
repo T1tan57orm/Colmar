@@ -87,33 +87,65 @@ a:link {
   font-size: 20px;
 }
 
-/* Information - Big Box */
+/* Information */
+
+.major img {
+  width: 100%;
+  margin-top: 23px;
+}
 
 .info {
-  background-color: #f2f2f2;
-  margin: 0 auto;
-  padding: 10px;
+  margin-bottom: 23px;
 }
 
-.stuff {
+.major h4 {
+  font-size: 25px;
+}
+
+.info .major {
+  width: 60%;
+}
+
+.info {
   display: flex;
-  margin: 24px;
-  padding: 32px;
+  margin: 0 auto;
 }
 
-.text2 {
-  width: 60%;
+.major {
+  padding-left: 25px;
+}
+.mobile {
+  display: none;
 }
 
-.main img {
-  width: 60%;
+.minor {
+  display: flex;
+  width: 40%;
+  margin: 23px;
+  border-left: 2px solid #f2f2f2;
 }
 
-/* Information - Smaller Boxes */
+.sm {
+  display: block;
+}
 
+.sm img {
+  margin: 16px;
+  width: 25%;
+}
 
+.sm1 {
+  display: flex;
+  background-color: #f2f2f2;
+}
 
+.sm2 {
+  display: flex;
+}
 
+.sm3 {
+  display: flex;
+}
 /* Start Learning - top row */
 .start {
   background-color: #e6e6e6;
@@ -165,11 +197,13 @@ a:link {
 
 
 /* Thesis */
-.thesis h3 {
+
+.header h3 {
   font-size: 32px;
   padding: 32px;
   text-align: center;
 }
+
 
 .thesis video {
   width: 100%;
@@ -194,9 +228,13 @@ a:link {
   margin: 23px;
 }
 
+.more {
+  display: block;
+}
+
 .more img {
   margin: 16px;
-  width: 20%;
+  width: 25%;
 }
 
 .more1 {
@@ -205,7 +243,7 @@ a:link {
 }
 
 .more2 {
-  display: flex;
+display: flex;
 }
 
 /* Footer */
@@ -240,6 +278,12 @@ a:link {
     display: none;
   }
 
+  .logo {
+    display: block;
+    margin: 0 auto;
+    padding-top: 15px;
+  }
+
   .nav li {
     display: none;
   }
@@ -258,7 +302,55 @@ a:link {
     margin: 0 auto;
   }
 
+  /* Information */
+  .info {
+    background-color: #f2f2f2;
+  }
+
+  .major {
+    display: none;
+  }
+
+  .minor {
+    width: 100%;
+    border: none;
+  }
+
+  .sm1 {
+    display: block;
+  }
+
+  .standard1 {
+    display: none;
+  }
+
+  .sm2 {
+    display: block;
+  }
+
+  .standard2 {
+    display: none;
+  }
+
+  .sm3 {
+    display: block;
+  }
+
+  .standard3 {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .sm img {
+    width: 100%;
+    margin: 0 auto;
+  }
+
   /* Start */
+
   .start {
     background-color: #f2f2f2;
   }
@@ -285,22 +377,41 @@ a:link {
     display: none;
   }
 
+  .top {
+  margin-bottom: 12px;
+  }
   .bottom p {
     display: none;
   }
 
-  .box  {
+  .box {
     width: 100%;
     height: auto;
     margin: 0 auto;
     padding: 10px;
-    background-color: #e6e6e6;
-}
+    margin-bottom: 12px;
+    background-color: #cccccc
+ }
 
   .box h4 {
     margin-left: 16px;
   }
+  /* thesis */
+  .side {
+    display: none;
+  }
 
+  .thesis video {
+    width: 150%;
+  }
+
+  .thesis h4 {
+    display: none;
+  }
+
+  .thesis p {
+    display: none;
+  }
   /* footer */
   .right {
     display: none;
